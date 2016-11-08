@@ -1,0 +1,24 @@
+.category{
+    width:95%;
+    margin: 0% auto;
+}
+
+.documents{
+    color: #c0392b;
+    font-size: large;
+}
+
+.category ul li{
+    font-family: serif;
+    font-size: large;
+}
+
+
+@media only screen and (max-width: 600px){
+    .category h3, .category h4{
+        display: none;
+    }
+    .courseInfo{
+        display: none;
+    }
+}

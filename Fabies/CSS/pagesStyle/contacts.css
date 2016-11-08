@@ -1,0 +1,48 @@
+.gsm,.workingTime, .adress{
+    padding-left: 5%;
+}
+
+.workingTime{
+    font-size: 80%;
+}
+
+.hrLine {
+    width: 90%;
+    height:1px;
+    background: #e74c3c;
+}
+
+.textContacts{
+    background-color: #F8F8F8 ;
+    width: 30%;
+    height: 247px;
+    margin-left:6%;
+    float:left;
+    font-size: larger;
+    padding-top: 1%;
+    font-family: 'Roboto';
+    border-radius: 5px;
+    border: 0.5px solid lightgray;
+}
+
+
+#contactsInfo{
+    margin-bottom:2%;
+}
+
+#map_canvas {
+    width: 50%;
+    height: 247px;
+    margin-left: 43%;
+
+
+    border-radius: 5px;
+    border: 0.5px solid lightgray;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .workingTime{
+        display: none;
+    }
+}

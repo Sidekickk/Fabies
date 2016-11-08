@@ -1,0 +1,66 @@
+#introduction {
+    margin: 1% 0 0 2%;
+    width: 90%;
+    padding: 5px;
+    font-size: medium;
+
+}
+
+#controlPointsPreview img{
+    display: none;
+}
+
+#someInformation{
+    display: flex;
+    margin-top: 3%;
+}
+
+#someInformation h3{
+    color:dimgray;
+}
+
+ #someInformation a{
+    color: #e74c3c;
+}
+
+#someInformation img {
+    width: 60%;
+}
+
+#intro {
+    margin-left: 1%;
+    width:30%;
+}
+
+
+@media only screen and (max-width: 600px) {
+        #informationAboutCourses{
+            display: none;
+        }
+}
+
+
+@media only screen and (max-width: 1200px) {
+    #someInformation img{
+        display: none;
+    }
+
+    #controlPointsPreview img{
+        display: block;
+    }
+
+    #controlPointsPreview{
+        padding-left: 1%;
+    }
+
+    #intro{
+        display: inline-block;
+        width:100%;
+    }
+
+    #informationAboutCourses{
+        width:37%;
+        float: left;
+        padding-left: 1%;
+    }
+}
